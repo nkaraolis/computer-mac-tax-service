@@ -1,4 +1,4 @@
-R -e 'install.packages(c("devtools"))'
+R -e 'install.packages('devtools', repos='http://cran.ma.imperial.ac.uk/')'
 
 R -e 'devtools::install_github("trestletech/plumber")'
 
